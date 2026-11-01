@@ -43,10 +43,10 @@ int main(){
     printf("====RESUMO DO PRODUTO CADASTRADO====\n");
     printf("Nome: %s\n", produto1.nome);
     printf("Código: %d\n", produto1.codigo);
-    printf("Preço: %f\n", produto1.preco);
+    printf("Preço: R$ %.2f\n", produto1.preco);
     printf("Quantidade em estoque: %d\n", produto1.quantidade_estoque);
     printf("====================================\n");
-    printf("Valor total em estoque: %d\n", produto1.quantidade_estoque * produto1.preco);
+    printf("Valor total em estoque: R$ %.2f\n", produto1.quantidade_estoque * produto1.preco);
 
     return 0;
 }
